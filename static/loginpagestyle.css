@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;  
+    font-family: 'Ramabhadra', sans-serif;
+
+}
+body{
+    color: white;
+    background-color: black;
+    background-image: url('./pubgwall.png');
+    background-repeat: no-repeat;
+}
+.container{
+    animation-name: loginanimate;
+    animation-duration: 1s;
+    position: absolute;
+    top: 116px;
+    left: 777px;
+    width:524px;
+    
+}
+@keyframes loginanimate{
+    from{
+        top: 0px;
+
+    }
+}to{
+    top:116px ;
+
+}
+.container h2{
+    text-align: center;
+}
+.inputbox input{
+    color: white;
+    margin: 32px;
+    border: none;
+    border-bottom: 0.065rem solid #fff;
+    outline: none;
+    background: transparent;
+    width: 90%;
+}
+.inputbox img{
+    height: 28px;
+    margin-left: 470px;
+    margin-top: -61px;
+}
+.checkbox input{
+    display: inline-block;
+    margin-left: 32px;
+    position: relative;
+}
+#forgotpassword{
+    color: white;
+    display: flex;
+    margin-top: -35px;
+    margin-left: 387px;
+    text-decoration: none;
+}
+#Eyeimage{
+    cursor: pointer;
+}
+#loginbutton{
+    margin-left: 31px;
+    margin-top: 47px;
+    width: 92%;
+    padding: 13px;
+    background-color: green;
+}
+.heading{
+    margin-top: 36px;
+    text-align: center;
+}
+a#createaccount{
+    text-decoration: none;
+    color: white;
+}
+.createaccount{
+    width: 89%;
+    margin-left: 31px;
+    border: 2px solid;
+    text-align: center;
+    /* color: white; */
+    border-color: green;
+    padding: 7px;
+}

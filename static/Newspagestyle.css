@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('./pubgnews2.jpg')  no-repeat;
+    background-size: cover;
+    
+}
+#navbar{
+    background-color: black;
+    height: 58px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+#navbar ul li{
+padding: 12px;
+}
+#navbar ul li  a{
+    color: gray;
+    font-family: 'Ramabhadra', sans-serif;
+    text-decoration: none;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+#navbar a:hover{
+    color: white;
+}
+#logoImage{
+    height: 43px;
+    padding: 5px;
+    /* align-content: flex-start; */
+}
+#News{
+    border-bottom: solid;
+    color: white;
+}
+.dropdown .dropbtn{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: gray;
+    font-family:'Ramabhadra', sans-serif ;
+    font-size: inherit;
+    margin: 13px;
+    
+}
+.dropdowncontent a {
+    font-family:'Ramabhadra', sans-serif ;
+    float: none;
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  .dropdowncontent{ 
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+.dropdown .dropbtn:hover{
+    color: white;
+}
+.dropdowncontent a:hover{
+    background-color: gray;
+    color: white;
+
+}
+a#login{
+    background: url(./login3.png) center;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40px;
+    /* display: flex; */
+    flex-direction: row-reverse;
+    position: absolute;
+    left: 1408px;
+    top: 13px;
+}
+#news1{
+    /* background-color: gray; */
+    border: 2px solid;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    flex-direction: row;
+    width: 83%;
+    margin-left: 146px;
+    margin-top: 63px;
+    /* background: inherit; */
+}
+#news1:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: 3px 3px 20px gray;
+}
+#news1 img{
+    height: 256px;
+}
+.news1{
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: bolder;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    left: 761px;
+    top: 200px;
+}
+.news11{
+    font-weight: bolder;
+    color: black;
+    font-family: 'Ramabhadra', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    left: 703px;
+    top: 232px;
+}
+#news2{
+    /* background-color: gray; */
+    border: 2px solid;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    width: 83%;
+    margin-left: 146px;
+    margin-top: 38px;
+    /* background: inherit; */
+}
+#news2:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: 3px 3px 20px gray;
+}
+#news2 img{
+    height: 234px;
+    width: 469px;
+}
+.news2{
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: bolder;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    left: 914px;
+    top: 474px;
+}
+.news22{
+    font-weight: bolder;
+    color: black;
+    font-family: 'Ramabhadra', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    left: 781px;
+    top: 514px;
+}
+#news3{
+    /* background-color: gray; */
+    border: 2px solid;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    width: 83%;
+    margin-left: 146px;
+    margin-top: 42px;
+    /* background: inherit; */
+}
+#news3:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: 3px 3px 20px gray;
+}
+#news3 img{
+    height: 256px;
+    width: 470px;
+}
+.news3{
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: bolder;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    left: 808px;
+    top: 796px;
+}
+.news33{
+    font-weight: bolder;
+    color: black;
+    font-family: 'Ramabhadra', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    left: 731px;
+    top: 828px;
+}
+#news4{
+    /* background-color: gray; */
+    border: 2px solid;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    width: 83%;
+    margin-left: 146px;
+    margin-top: 42px;
+    /* background: inherit; */
+}
+#news4:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+    box-shadow: 3px 3px 20px gray;
+}
+#news4 img{
+    height: 256px;
+    width: 472px;
+}
+.news4{
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: bolder;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    left: 833px;
+    top: 1074px;
+}
+.news44{
+    font-weight: bolder;
+    color: black;
+    font-family: 'Ramabhadra', sans-serif;
+    position: absolute;
+    font-size: 25px;
+    left: 666px;
+    top:1112px;
+}

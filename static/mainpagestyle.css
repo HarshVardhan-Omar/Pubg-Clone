@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: black;
+    height: 58px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+#navbar ul li{
+padding: 12px;
+}
+#navbar ul li  a{
+    color: gray;
+    font-family: 'Ramabhadra', sans-serif;
+    text-decoration: none;
+    padding: 42px;
+}
+#navbar a:hover{
+    color: white;
+}
+#logoImage{
+    height: 43px;
+    padding: 5px;
+    /* align-content: flex-start; */
+}
+.dropdown .dropbtn{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: gray;
+    font-family:'Ramabhadra', sans-serif ;
+    font-size: inherit;
+    margin: 13px;
+    
+}
+.dropdowncontent a {
+    font-family:'Ramabhadra', sans-serif ;
+    float: none;
+    color: gray;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  .dropdowncontent{ 
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+.dropdown .dropbtn:hover{
+    color: white;
+}
+.dropdowncontent a:hover{
+    background-color: gray;
+    color: white;
+
+}
+a#login{
+    background: url(./login3.png) center;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 40px;
+    /* display: flex; */
+    flex-direction: row-reverse;
+    position: absolute;
+    left: 1408px;
+    top: -29px;
+}
+#introsection{
+    height: 600px;
+    background: url(./intro2.jpg)center no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: cover;                               
+}
+a#introbutton{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Ramabhadra', sans-serif;
+    position: absolute;
+    background-color: goldenrod;
+    padding: 14px;
+    top: 512px;
+    left: 917px;
+    outline: none;
+    border: 2px solid;
+    border-radius: 14px;
+    width: 317px;
+}
+#box1{
+    background: url(./box1.png) center no-repeat;
+    background-size: cover;
+display: inline-block;
+margin-top: 5px;
+    height: 400px;
+    width: 50%;
+}
+#box2{
+    background: url(./box2.png) center no-repeat;
+    background-size: cover;
+    background-color: blue;
+    position: absolute;
+    display: inline-block;
+    height: 400px;
+    width: 50%;
+    top: 662px;
+    left: 765px;
+}
+#miscellaneous{
+    background: url('https://source.unsplash.com/user/erondu/1600x900') cover no-repeat;
+}
+#heading{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 25px;
+    margin-top: 62px;
+    text-align: center;
+}
+#patchImage{
+    width: 100%;
+}
+#patch1{
+    
+    position: absolute;
+    display: inline-block;
+    margin-top: 5px;
+    height: 600px;
+    width: 50%;
+    left: 383px;
+    right: 383px;
+    justify-content: end;
+    text-align: 144px;
+}
+#patchnotes{
+    text-align: center;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 47px;
+}
+#knowMore{
+    background-color:goldenrod;
+    color: white;
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    /* border:  solid red; */
+    padding: 5px
+}
+a#knowmore{
+    border: 0ch;
+    text-decoration: none;
+
+}
+#footer{
+    background-color: black;
+}
+#footerheading{
+    position: absolute;
+    top: 1863px;
+    left: 567px;
+}
+#linksupported{
+    font-family: 'Ramabhadra', sans-serif;
+    background-color: goldenrod;
+    color: white;
+    position: absolute;
+    top: 1907px;
+    left: 517px;
+    width: 30%;
+    padding: 14px;
+    text-align: center;
+}
+a#devices{
+    
+    color: white;
+    text-decoration: none;
+}
+#end{
+    color: white;
+    position: absolute;
+    background-color: black;
+    top: 2007px;
+    padding: 17px;
+    text-align: center;
+    width: 100%;
+}
+

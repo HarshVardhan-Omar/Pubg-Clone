@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#communities{
+    display: flex;
+    flex-direction: row;
+}
+ .instacontainer{
+    display: block;
+    position: absolute;
+    top: 10px;
+    
+    
+}
+.instanote{
+    position: absolute;
+    top: 250px;
+}
+.secondinstanote{
+    position: absolute;
+    top: 290px;
+}
+.instacontainer img{
+    height: 236px;
+}
+.twittercontainer{
+    display: inline;
+    position: absolute;
+    left: 471px;
+}
+.facebookcontainer{
+    position: absolute;
+    left: 968px;
+}
