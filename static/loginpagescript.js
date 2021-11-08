@@ -1,9 +1,7 @@
 function Imagechange(){
-    console.log("Inside")
    var x= document.getElementById("Eyeimage").src;
-   console.log(x)
    var password=document.getElementById("userpassword");
-   if(x=="./eye.jpg")
+   if(x=="https://pubgclone.herokuapp.com/eye.jpg"||x=="http://localhost:3000/eye.jpg")
    {
        password.type="text";
        document.getElementById("Eyeimage").src="./closedeye.png";
