@@ -2,7 +2,7 @@ const fs=require("fs");
 const express=require("express");
 const app=express();
 const path=require("path");
-const port=80;
+const port=process.env.PORT;
 const mongoose = require('mongoose');
 const bodyparser=require("body-parser");
 mongoose.connect('mongodb://localhost/userinfo', {useNewUrlParser: true});
@@ -54,6 +54,6 @@ app.post('/Login',(req,res)=>{
         res.status(400).send("Login error")
     })
 })
-app.listen(port,()=>{
+app.listen(port||3000,()=>{
     console.log(`Server started at port ${port}`);
 });
